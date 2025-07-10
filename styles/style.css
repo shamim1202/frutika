@@ -3,4 +3,144 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+.btn {
+    background-color: #ff4f00;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 0.8rem 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}
+.outline-btn {
+    background: transparent;
+    border: 2px solid #ff4f00;
+    color: #fff;
+    border-radius: 25px;
+    padding: 0.7rem 1.1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}
+
+header {
+    background: #e5e4e2;
+}
+.nav-container {
+    position: relative;
+    background: url(/images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nav-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.banner,
+.banner-extra-container {
+    position: relative;
+    z-index: 2;
+}
+nav {
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    position: relative;
+    z-index: 3;
+}
+.logo,
+.menu,
+.menu-icon {
+    width: 100%;
+}
+.logo img {
+    width: 10rem;
+}
+.menu ul {
+    display: flex;
+    gap: 1.5rem;
+}
+.menu ul li {
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+}
+.menu a:hover {
+    color: #ff4f00;
+}
+.menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+.menu-icon img {
+    width: 1.5rem;
+}
+.banner {
+    padding: 9rem;
+}
+.banner-sub-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #ff4f00;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.banner-title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    margin: 2rem 0;
+}
+.banner-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.banner-extra-container {
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+.ssr-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.ssr-container img {
+    width: 5rem;
+    border: 3px dotted #f28123;
+    border-radius: 50%;
+    padding: 1rem;
+}
+.ssr-content h4 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+.ssr-content p {
+    color: #696969;
 }

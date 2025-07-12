@@ -27,7 +27,15 @@
     letter-spacing: 0.8px;
     cursor: pointer;
 }
-
+.btn-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.btn img {
+    width: 1.3rem;
+}
 header {
     background: #e5e4e2;
 }
@@ -143,4 +151,70 @@ nav {
 }
 .ssr-content p {
     color: #696969;
+}
+
+/*----------- Our Products Section Style ------------*/
+.products-container {
+    max-width: 80vw;
+    margin: 5rem auto;
+}
+.products-details {
+    padding: 3rem auto;
+    text-align: center;
+    margin: 3rem 0;
+}
+.products-title {
+    font-size: 2.3rem;
+    font-weight: 900;
+    color: rgb(26, 26, 26);
+    padding-bottom: 10px;
+}
+.products-title span {
+    color: #ff4f00;
+}
+.products-brief {
+    color: #191919;
+}
+
+.products-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: center;
+    /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5),
+        -5px -5px -5px -5px rgba(0, 0, 0, 0.5); */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.product-card {
+    border-radius: 5px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 3px 3px 10px 5px rgba(75, 75, 75, 0.1);
+    /* -1px -1px 10px 4px rgba(255, 255, 255, 0.1); */
+}
+.product-img {
+    width: 15rem;
+}
+.product-name {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #191919;
+    margin-bottom: 0.8rem;
+}
+.product-card p {
+    color: #313131;
+    font-weight: 500;
+}
+.product-price {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #191919;
+    margin: 0.8rem;
+}
+.product-card button {
+    max-width: 100vw;
+    margin: 0 auto;
+}
+.product-card a {
+    text-decoration: none;
 }

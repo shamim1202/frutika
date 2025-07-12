@@ -221,6 +221,10 @@ nav {
     box-shadow: 3px 3px 10px 5px rgba(75, 75, 75, 0.1);
 }
 
+.product-card:hover {
+    box-shadow: 3px 3px 10px 6px rgba(47, 0, 255, 0.15);
+}
+
 .product-img {
     width: 15rem;
 }
@@ -270,6 +274,7 @@ nav {
 .deal-content {
     width: 50%;
 }
+
 .sub-title {
     font-size: 1.2rem;
     font-weight: 500;
@@ -286,6 +291,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 6px;
+    margin: 1rem 0 2rem;
 }
 .deal-time {
     border: 2px solid #ff4f00;
@@ -302,4 +308,40 @@ nav {
 .deal-time p {
     color: #313131;
     font-size: 0.9rem;
+}
+
+.deal-content a {
+    text-decoration: none;
+}
+
+/* -------- Customer Feedback Section Style --------- */
+.feedback-container {
+    max-width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+}
+.feedback-container img {
+    width: 100px;
+    border-radius: 50%;
+}
+.feedback-container h4 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 1rem 0;
+}
+.feedback-container h6 {
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #313131;
+}
+.feedback-container p {
+    color: #696969;
+    font-style: italic;
+    margin: 1.2rem 0;
+    letter-spacing: 0.3px;
+    line-height: 1.5rem;
+}
+.quote {
+    font-size: 4rem;
+    color: #696969;
 }

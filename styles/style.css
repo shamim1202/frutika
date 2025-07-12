@@ -345,3 +345,23 @@ nav {
     font-size: 4rem;
     color: #696969;
 }
+
+/*------------- Frutikha Origin History Section ------------*/
+.origin-container {
+    max-width: 80vw;
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.origin-video iframe {
+    border-radius: 10px;
+    height: 425px;
+}
+.origin-content p {
+    color: #696969;
+}
+.origin-content button {
+    margin: 1.5rem 0;
+}

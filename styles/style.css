@@ -359,6 +359,12 @@ nav {
     border-radius: 10px;
     height: 425px;
 }
+.origin-video {
+    width: 50%;
+}
+.origin-content {
+    width: 50%;
+}
 .origin-content p {
     color: #696969;
 }
@@ -372,10 +378,10 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 5rem 0;
+    margin: 8rem 0;
 }
 .discount-content {
-    padding: 6rem 8rem;
+    padding: 6rem;
     max-width: 50%;
 }
 .discount-precent {
@@ -398,3 +404,87 @@ nav {
 }
 
 /*----------- Our News Section Style ------------*/
+.news-container {
+    max-width: 80vw;
+    margin: 5rem auto;
+}
+.news-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.news-card {
+    border-radius: 20px 20px 5px 5px;
+    box-shadow: 3px 3px 10px 5px rgba(75, 75, 75, 0.1);
+}
+.news-card:hover {
+    box-shadow: 3px 3px 10px 6px rgba(47, 0, 255, 0.15);
+}
+
+.news-card-img {
+    border-radius: 20px 20px 0 0;
+    max-width: 100%;
+}
+.news-card-content {
+    padding: 1.5rem;
+}
+.news-card-content h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #191919;
+}
+.news-card-content img {
+    width: 0.9rem;
+    filter: opacity(0.8);
+}
+.news-author-info {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin: 1rem 0;
+    color: #696969;
+}
+.news-author {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.news-author p {
+    font-weight: 300;
+    font-size: 14px;
+}
+.news-date {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.news-date p {
+    font-weight: 300;
+    font-size: 14px;
+}
+.news-card-details {
+    color: #696969;
+}
+.news-link {
+    padding: 1.5rem 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.news-link a {
+    text-decoration: none;
+    color: #191919;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.news-container button {
+    display: flex;
+    margin: 5rem auto;
+    text-decoration: none;
+}
+.news-btn {
+    text-decoration: none;
+}

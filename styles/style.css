@@ -488,3 +488,16 @@ nav {
 .news-btn {
     text-decoration: none;
 }
+
+/*---------- Company Identification Logo Section Style ----------*/
+.company-container {
+    background-color: #e5e4e2;
+    padding: 3rem 0;
+}
+.company-content {
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -6,6 +6,7 @@
     font-family: "Noto Sans", sans-serif;
 }
 
+/*----- Button Style Section -------*/
 .btn {
     background-color: #ff4f00;
     color: #fff;
@@ -653,6 +654,22 @@ footer {
 /*-------- Responsive For Small Mobile (max-576px) Device ---------*/
 
 @media screen and (max-width: 576px) {
+    /*----- Button Style -----*/
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    .outline-btn,
+    .outline-btn:hover {
+        padding: 0.4rem 1rem;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    .btn img {
+        width: 1rem;
+    }
+
     /*----- Nav Section ------*/
     .nav-container {
         position: relative;
@@ -752,9 +769,47 @@ footer {
     .product-price {
         font-size: 1.3rem;
     }
+
+    /*----- Deal Section -----*/
+    .deal-container {
+        gap: 1rem;
+        padding: 2rem 1rem;
+        margin: 3rem 0;
+    }
+    .deal-content {
+        padding: 0 10px;
+    }
+    .deal-img {
+        padding: 1rem;
+    }
+    .sub-title {
+        font-size: 0.9rem;
+    }
+    .deal-brief {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    .deal-counter {
+        gap: 4px;
+        margin: 0.6rem 0 1.2rem;
+    }
+    .deal-time {
+        border: 1px solid #ff4f00;
+        width: 50px;
+        height: 50px;
+    }
+    .deal-time h4 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding-top: 2px;
+    }
+    .deal-time p {
+        font-size: 0.7rem;
+    }
 }
 
 /*
+
 
 
     */

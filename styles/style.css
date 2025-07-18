@@ -65,7 +65,7 @@ header {
 
 .nav-container {
     position: relative;
-    background: url(/images/hero-bg.jpg);
+    background: url(../images/hero-bg-2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -233,6 +233,7 @@ nav {
     gap: 2rem;
     align-items: center;
 }
+
 .product-card {
     border-radius: 5px;
     padding: 1.5rem;
@@ -689,7 +690,7 @@ footer {
     }
 
     .banner-title {
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 800;
     }
 
@@ -715,4 +716,45 @@ footer {
     .ssr-content p {
         font-size: 0.7rem;
     }
+
+    /*----- Our Products -----*/
+    .products-container {
+        max-width: 90vw;
+        margin: 3rem auto;
+    }
+    .products-details {
+        max-width: 100%;
+        padding: 1rem;
+    }
+    .products-title {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .products-brief {
+        line-height: 1.3rem;
+        font-size: 0.8rem;
+    }
+    .products-card-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    .product-card {
+        margin: 0 3rem;
+    }
+    .product-name {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .product-card p {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    .product-price {
+        font-size: 1.3rem;
+    }
 }
+
+/*
+
+
+    */

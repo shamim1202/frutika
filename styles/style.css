@@ -462,18 +462,22 @@ nav {
     border-radius: 20px 20px 0 0;
     max-width: 100%;
 }
+
 .news-card-content {
     padding: 1.5rem;
 }
+
 .news-card-content h3 {
     font-size: 1.3rem;
     font-weight: 700;
     color: #191919;
 }
+
 .news-card-content img {
     width: 0.9rem;
     filter: opacity(0.8);
 }
+
 .news-author-info {
     display: flex;
     align-items: center;
@@ -481,33 +485,40 @@ nav {
     margin: 1rem 0;
     color: #696969;
 }
+
 .news-author {
     display: flex;
     align-items: center;
     gap: 5px;
 }
+
 .news-author p {
     font-weight: 300;
     font-size: 14px;
 }
+
 .news-date {
     display: flex;
     align-items: center;
     gap: 5px;
 }
+
 .news-date p {
     font-weight: 300;
     font-size: 14px;
 }
+
 .news-card-details {
     color: #696969;
 }
+
 .news-link {
     padding: 1.5rem 0 1rem;
     display: flex;
     align-items: center;
     gap: 5px;
 }
+
 .news-link a {
     text-decoration: none;
     color: #191919;
@@ -516,11 +527,13 @@ nav {
     align-items: center;
     gap: 5px;
 }
+
 .news-container button {
     display: flex;
     margin: 5rem auto;
     text-decoration: none;
 }
+
 .news-btn {
     text-decoration: none;
 }
@@ -673,7 +686,7 @@ footer {
     /*----- Nav Section ------*/
     .nav-container {
         position: relative;
-        background: url(/images/hero-bg.jpg);
+        background: url(../images/hero-bg-3.jpg);
         background-size: cover;
     }
     nav {
@@ -845,11 +858,56 @@ footer {
         font-size: 0.8rem;
         line-height: 1.2rem;
     }
+
+    /*----- Sale Discount Style -----*/
+    .discount-container {
+        margin: 5rem 0;
+    }
+    .discount-content {
+        max-width: 60%;
+        margin: 0 auto;
+        padding: 2rem;
+        text-align: center;
+    }
+    .discount-precent {
+        align-items: end;
+        justify-content: center;
+        gap: 8px;
+        margin: 1rem 0;
+    }
+
+    /*----- News Section Style -----*/
+    .news-container {
+        max-width: 90vw;
+        margin: 3rem auto 2rem;
+    }
+    .news-card-container {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+    .news-card-header {
+        margin: 4rem 0 2rem;
+        padding: 0;
+    }
+    .news-card-content h3 {
+        font-size: 1rem;
+    }
+    .news-card-content img {
+        width: 0.7rem;
+    }
+    .news-card-details {
+        font-size: 0.8rem;
+    }
+    .news-link a {
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+    .news-container button {
+        margin: 3rem auto;
+    }
 }
 
 /*
 
-.origin-content button {
-    margin: 1.5rem 0;
-}
+
     */

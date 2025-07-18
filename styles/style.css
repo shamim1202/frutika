@@ -394,10 +394,10 @@ nav {
     height: 425px;
 }
 .origin-video {
-    width: 50%;
+    flex: 1;
 }
 .origin-content {
-    width: 50%;
+    flex: 1;
 }
 .origin-content p {
     color: #696969;
@@ -827,8 +827,29 @@ footer {
     .quote {
         font-size: 2.5rem;
     }
+
+    /*----- Origin Section ----*/
+    .origin-container {
+        /* flex-direction: column-reverse; */
+        display: block;
+        max-width: 90vw;
+        margin: 3rem auto;
+        gap: 2rem;
+    }
+    .origin-video iframe {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 2rem;
+    }
+    .origin-details {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
 }
 
 /*
 
+.origin-content button {
+    margin: 1.5rem 0;
+}
     */

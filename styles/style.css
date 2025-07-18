@@ -1001,7 +1001,10 @@ footer {
         max-width: 90vw;
         grid-template-columns: repeat(3, 1fr);
     }
-
+   .company-content img {
+       width: 100px;
+   }
+    
     /*----- Footer Section -----*/
     footer p {
         font-size: 0.8rem;

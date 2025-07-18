@@ -17,6 +17,7 @@
     letter-spacing: 0.8px;
     cursor: pointer;
 }
+
 .btn:hover {
     filter: hue-rotate(180deg);
 }
@@ -32,6 +33,7 @@
     letter-spacing: 0.8px;
     cursor: pointer;
 }
+
 .outline-btn:hover {
     padding: 0.8rem 1.2rem;
     border: none;
@@ -45,9 +47,11 @@
     justify-content: center;
     gap: 10px;
 }
+
 .btn-cart:hover {
     filter: hue-rotate(145deg);
 }
+
 .btn img {
     width: 1.3rem;
 }
@@ -403,14 +407,16 @@ nav {
 /*---------- Sale Discount Section Style ----------*/
 .discount-container {
     background-image: url(../images/discount.jpg);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 8rem 0;
 }
 .discount-content {
     padding: 6rem;
-    max-width: 50%;
+    max-width: 60%;
+}
+.sale-discount {
+    font-size: 3rem;
 }
 .discount-precent {
     display: flex;
@@ -595,6 +601,14 @@ footer {
     border: none;
     border-radius: 3px;
 }
+
+.subscribe-input-content input:focus {
+    outline: none;
+    color: #e5e4e2;
+    border: none;
+    background: rgba(50, 149, 255, 0.2);
+}
+
 .input-button {
     width: 15%;
     background-color: #022d5ac2;
@@ -633,4 +647,72 @@ footer {
 }
 .social-link img {
     width: 1.1rem;
+}
+
+/*-------- Responsive For Small Mobile (max-576px) Device ---------*/
+
+@media screen and (max-width: 576px) {
+    /*----- Nav Section ------*/
+    .nav-container {
+        position: relative;
+        background: url(/images/hero-bg.jpg);
+        background-size: cover;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu ul {
+        flex-direction: column;
+        gap: 0.8rem;
+        margin: 2rem 0 1rem;
+    }
+    .menu-icon {
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+    }
+    .logo,
+    .menu,
+    .menu-icon {
+        text-align: center;
+    }
+
+    /*----- Banner Section ------*/
+    .banner {
+        padding: 1rem 1rem 2rem;
+    }
+    .banner-sub-title {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+    .banner-extra-container {
+        max-width: 100%;
+        padding: 1rem;
+        gap: 0.8rem;
+    }
+
+    .ssr-container {
+        gap: 0.5rem;
+    }
+    .ssr-container img {
+        width: 3rem;
+        border: 2px dotted #f28123;
+        border-radius: 50%;
+        padding: 0.5rem;
+    }
+    .ssr-content h4 {
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+    }
+    .ssr-content p {
+        font-size: 0.7rem;
+    }
 }
